@@ -1,0 +1,92 @@
+.header {
+  margin: 2rem 4rem 0 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  width: 18.2%;
+  height: 5%;
+}
+.nav {
+  width: 40%;
+  display: flex;
+  justify-content: flex-end;
+}
+.homeNav {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 142.6%;
+  /* or 34px */
+  display: flex;
+  align-items: flex-end;
+  text-align: right;
+  text-decoration-line: none;
+  color: #ff6060;
+}
+.homeNav:hover {
+  text-decoration-line: underline;
+}
+.aboutNav {
+  margin-left: 10%;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 142.6%;
+  /* or 34px */
+  display: flex;
+  align-items: flex-end;
+  text-align: right;
+  text-decoration-line: none;
+  color: #ff6060;
+}
+.aboutNav:hover {
+  text-decoration-line: underline;
+}
+
+/*===========================================*/
+/*Media queries for mobiles*/
+/*===========================================*/
+@media (max-width: 480px) {
+  .header {
+    margin: 1rem 2rem 0 2rem;
+  }
+  .logo {
+    width: 46.7%;
+    height: 10%;
+  }
+  .nav {
+    width: 50%;
+  }
+  .homeNav {
+    font-size: 12px;
+  }
+  .aboutNav {
+    font-size: 12px;
+  }
+}
+/*===========================================*/
+/*Media queries for tabs*/
+/*===========================================*/
+@media (min-width: 481px) and (max-width: 768px) {
+  .header {
+    margin: 1rem 2rem 0 2rem;
+  }
+  .logo {
+    width: 26.7%;
+    height: 8%;
+  }
+  .nav {
+    width: 40%;
+  }
+  .homeNav {
+    font-size: 16px;
+  }
+  .aboutNav {
+    font-size: 16px;
+  }
+}
+/*===========================================*/

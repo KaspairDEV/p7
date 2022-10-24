@@ -1,0 +1,30 @@
+.collapse {
+    margin: 2rem 0rem 2rem 4rem;
+    display: flex;
+    justify-content: center;
+    width: auto;
+}
+/*===========================================*/
+/*Media queries for mobiles*/
+/*===========================================*/
+@media (max-width: 480px) {
+.collapse {
+        flex-direction: column;
+        width: auto;
+        margin: 1rem 2rem 1rem 2rem;
+    }
+
+}
+
+/*===========================================*/
+/*Media queries for tabs*/
+/*===========================================*/
+@media (min-width: 481px) and (max-width: 830px) {
+.collapse {
+        margin: 2rem 4rem 2rem 4rem;
+        flex-direction: column;
+        
+    }
+}
+
+/*===========================================*/
