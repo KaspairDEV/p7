@@ -3,7 +3,7 @@ import Home from "./pages/Home/Home"
 import Lodgings from './pages/Lodgings/Lodgings';
 import About from './pages/About/About';
 import Notfound from './pages/Notfound/Notfound';
-import { element } from "prop-types";
+
 
 function Router() {
   return (

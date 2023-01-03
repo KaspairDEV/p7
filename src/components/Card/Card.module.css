@@ -24,8 +24,8 @@
 }
 .card:hover {
   cursor: pointer;
--webkit-box-shadow: 4px 6px 11px 3px rgba(0, 0, 0, 0.7);
-    box-shadow: 4px 6px 11px 3px rgba(0, 0, 0, 0.7);
+  -webkit-box-shadow: 4px 6px 11px 3px rgba(0, 0, 0, 0.7);
+  box-shadow: 4px 6px 11px 3px rgba(0, 0, 0, 0.7);
 }
 .cover {
   width: 100%;
@@ -52,22 +52,20 @@
 /*Media queries for mobiles*/
 /*===========================================*/
 @media (min-width: 326px) and (max-width: 480px) {
-.backgroundCards {
-        margin: 2rem 2rem 2rem 2rem;
-        padding: 1rem 1rem 0 1rem;
-}
-.card {
+  .backgroundCards {
+    margin: 2rem 2rem 2rem 2rem;
+    padding: 1rem 1rem 0 1rem;
+  }
+  .card {
     height: 255px;
     width: 255px;
-    
-}
-.title {
+  }
+  .title {
     width: 60%;
     padding-left: 0.5rem;
     padding-top: 12.8rem;
     font-size: 18px;
-    
-}
+  }
 }
 @media (max-width: 325px) {
   .backgroundCards {
@@ -78,7 +76,6 @@
   .card {
     height: 255px;
     width: 220px;
-
   }
 
   .title {
@@ -86,7 +83,6 @@
     padding-left: 0.5rem;
     padding-top: 12.8rem;
     font-size: 18px;
-
   }
 }
 
@@ -94,20 +90,19 @@
 /*Media queries for tabs*/
 /*===========================================*/
 @media (min-width: 481px) and (max-width: 830px) {
-   .backgroundCards {
+  .backgroundCards {
     margin: 2rem 2rem 2rem 2rem;
-        padding: 1rem 1rem 0 1rem;
-   } 
-   .card {
-       width: 320px;
-       height: 255px;
-   }
-   .title {
-       width: 240px;
-       padding-left: 0.5rem;
-       padding-top: 12.8rem;
-   }
+    padding: 1rem 1rem 0 1rem;
+  }
+  .card {
+    width: 320px;
+    height: 255px;
+  }
+  .title {
+    width: 240px;
+    padding-left: 0.5rem;
+    padding-top: 12.8rem;
+  }
 }
-
 
 /*===========================================*/

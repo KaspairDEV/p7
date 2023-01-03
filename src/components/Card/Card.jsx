@@ -1,12 +1,9 @@
-import { useState } from "react"
 import { Link } from "react-router-dom"
 import PropTypes from "prop-types"
-import Lodgings from "../../lodgings.json"
 import CardsCSS from "../Card/Card.module.css"
 
-function Card() {
-  const [lodgings] = useState(Lodgings)
-
+const Card = ({lodgings}) => {
+  
   return (
     <div className={CardsCSS.backgroundCards}>
       {lodgings.map((lodging) => (
