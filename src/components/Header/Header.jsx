@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom"
+import { NavLink, Link } from "react-router-dom"
 import Logo from "../Images/logo.svg"
 import HeaderCSS from "../Header/Header.module.css"
 
@@ -8,8 +8,9 @@ function Header() {
 
   return (
       <header className={HeaderCSS.header}>
-        
+        <Link to="/">
         <img src={Logo} alt="Logo de Kasa" className={HeaderCSS.logo} />
+        </Link>
         <nav className={HeaderCSS.nav}>
           <NavLink to="/" className={HeaderCSS.homeNav} style={({ isActive }) =>
               isActive ? activeStyle : undefined } end>

@@ -7,7 +7,7 @@ import rightArrow from "../Images/right-arrow.svg"
 function Slideshow({ images }) {
   /*Set Hook useState for for listening to changes*/
   const [current, setCurrent] = useState(0)
-
+  
   /*add a const for the lenght of data*/
   const length = images.length
 
@@ -17,11 +17,11 @@ function Slideshow({ images }) {
   }
 
   const prevSlide = () => {
-    setCurrent(current === 0 ? length - 1 : current - 1)
+    setCurrent(current === 0 ? length - 1 : current - 1) 
   }
   
 
-  return (
+  return (  
     <section className={SliderCSS.container}>
       <div className={SliderCSS.slider}>
         <img
