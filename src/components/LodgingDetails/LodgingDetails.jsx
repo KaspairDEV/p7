@@ -37,7 +37,7 @@ function LodgingDetails({ details }) {
                 {details.host.name}
                 </div>
                 <div className={LodgingDetailsCSS.pictProfile}>
-                    <img src={details.host.picture} alt="photo du propriétaire" className={LodgingDetailsCSS.picture}/>
+                    <img src={details.host.picture} alt="Profil du propriétaire" className={LodgingDetailsCSS.picture}/>
                 </div>
             </div>
             <div className={LodgingDetailsCSS.starsBox}>

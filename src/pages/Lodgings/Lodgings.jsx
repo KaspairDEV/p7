@@ -1,6 +1,5 @@
-import React, { Component } from "react"
+import React from "react"
 import { useParams } from "react-router-dom"
-import styled from 'styled-components'
 
 import Slideshow from "../../components/Slideshow/Slideshow"
 import LodgingsCSS from "../Lodgings/Lodgings.module.css"
