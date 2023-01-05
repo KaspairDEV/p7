@@ -54,8 +54,8 @@ Link .logo {
   .header {
     margin: 1rem 2rem 0 2rem;
   }
-  Link .logo {
-    width: 46.7%;
+  .logo {
+    width: 75.7%;
     height: 10%;
   }
   .nav {
@@ -74,9 +74,10 @@ Link .logo {
 @media (min-width: 481px) and (max-width: 768px) {
   .header {
     margin: 1rem 2rem 0 2rem;
+    padding-right: 1rem;
   }
   .logo {
-    width: 26.7%;
+    width: 75.7%;
     height: 8%;
   }
   .nav {

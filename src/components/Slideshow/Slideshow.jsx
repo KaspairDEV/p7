@@ -32,6 +32,7 @@ function Slideshow({ images }) {
         />
       </div>
       <img
+      alt=""
         src={leftArrow}
         className={
           images.length === 1 ? SliderCSS.leftArrowNone : SliderCSS.leftArrow
@@ -46,6 +47,7 @@ function Slideshow({ images }) {
         {current + 1}/{images.length}
       </div>
       <img
+      alt=""
         src={rightArrow}
         className={
           images.length === 1 ? SliderCSS.rightArrowNone : SliderCSS.rightArrow
